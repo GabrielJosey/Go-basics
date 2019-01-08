@@ -4,7 +4,7 @@
 // Packages are often used to set up libraries for other programs
 // The special package that provides a starting point for Go programs to run, the "main" package
 // packages should be one word by convention and needs to be all lower case
-//
+// the bellow "package main" is naming this package as the "main" package
 
 package main
 
@@ -31,3 +31,8 @@ func main() {
 func otherFunction() {
 	// this is a change
 }
+
+// constants with capital letters are exported from the package and are visible by other packages
+// if the variable has a lower case letter it will not be exported and thus not visible by other packages
+const English = "Welcome"
+const klingon = "yI'el"
