@@ -7,3 +7,15 @@ unless you have a specific reason to use uint# then its probably not worth using
 you will want to use the float32 or float64 types
 */
 package main
+
+import (
+	"fmt"
+	"net"
+	"reflect"
+	"time"
+)
+
+func main() {
+	fmt.Println(reflect.TypeOf(net.IPv4(127, 0, 0, 1)))
+	fmt.Println(reflect.TypeOf(time.Now()))
+}
