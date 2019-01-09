@@ -3,6 +3,7 @@
 // Each file begins with a package declaration.
 // Packages are often used to set up libraries for other programs
 // The special package that provides a starting point for Go programs to run, the "main" package
+// every program should have a "main" package. All other packages are supporting packages that should be imported
 // packages should be one word by convention and needs to be all lower case
 // the bellow "package main" is naming this package as the "main" package
 
